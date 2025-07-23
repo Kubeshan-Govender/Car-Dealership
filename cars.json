@@ -1,0 +1,14 @@
+[
+  {
+    "model": "Kia Rio 1.4 EX",
+    "year": 2019,
+    "price": 169900,
+    "image": "kia-rio.jpg"
+  },
+  {
+    "model": "Kia Sportage 2.0 CRDi",
+    "year": 2021,
+    "price": 319900,
+    "image": "kia-sportage.jpg"
+  }
+]

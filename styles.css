@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+header, footer {
+  background-color: #cc0000;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em;
+}
+.car-item {
+  background: white;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+}
+.car-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
