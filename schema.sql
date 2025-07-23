@@ -1,0 +1,12 @@
+CREATE DATABASE kia_used_cars;
+USE kia_used_cars;
+
+CREATE TABLE cars (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  model VARCHAR(255),
+  year INT,
+  price DECIMAL(10,2),
+  image VARCHAR(255),
+  sold BOOLEAN DEFAULT FALSE,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
