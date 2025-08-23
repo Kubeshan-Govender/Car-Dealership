@@ -19,10 +19,10 @@ header {
 
 .header-logo {
   position: absolute;
-  left: 20px;          /* far left */
-  top: 50%;            /* vertical center */
+  left: 20px;
+  top: 50%;
   transform: translateY(-50%);
-  width: 250px;         /* adjust as needed */
+  width: 60px;
   height: auto;
 }
 
@@ -46,6 +46,18 @@ nav ul li a {
   font-weight: 600;
 }
 
+@media (max-width: 640px) {
+  .header-logo {
+    position: static;       /* remove absolute */
+    display: block;
+    margin: 0 auto 10px;    /* center above text with spacing */
+    transform: none;
+  }
+
+  .header-text {
+    text-align: center;     /* keep text centered */
+  }
+}
 
 /* Sections */
 section {
@@ -267,3 +279,4 @@ footer {
 .car-dots span.active {
   background: #d71920; /* Kia red highlight */
 }
+
