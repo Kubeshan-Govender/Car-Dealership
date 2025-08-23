@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Praveen Hiralall | Kia Motors Umhlanga</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  
+  <header id="home">
+    <div class="header-inner">
+      <img src="images/kia-logo.png" alt="Kia Motors Logo" class="header-logo">
+      <div class="header-text">
+        <h1>Praveen Hiralall</h1>
+        <p>Car Salesman at Kia Motors Umhlanga</p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#cars">Cars</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+  <section id="home-hero">
+    <h2>Welcome</h2>
+    <p>Looking for your next car? Praveen Hiralall at Kia Motors Umhlanga is here to help you drive away in style and confidence.</p>
+  </section>
+
+  <section id="about" class="about-section">
+    <h2>About Praveen</h2>
+    <div class="about-container">
+      <p>With years of experience in automotive sales, Praveen offers personalized service, deep knowledge of Kia vehicles, and unbeatable deals tailored to your needs.</p>
+      <img src="images/praveen.jpg" alt="Praveen Hiralall" class="profile-image">
+    </div>
+  </section>
+
+
+  <section id="cars">
+    <h2>Cars for Sale</h2>
+    <div class="car-list">
+
+      <!-- CAR 1 -->
+      <div class="car-item">
+        <div class="car-slideshow">
+          <img src="images/sportage/sportage1.jpg" class="active" />
+          <img src="images/sportage/sportage2.jpg" />
+          <img src="images/sportage/sportage3.jpg" />
+          <img src="images/sportage/sportage4.jpg" />
+          <button class="prev" onclick="changeSlide(this,-1)">&#10094;</button>
+          <button class="next" onclick="changeSlide(this,1)">&#10095;</button>
+        </div>
+
+        <div class="car-dots">
+          <span onclick="goToSlide(this,0)" class="active"></span>
+          <span onclick="goToSlide(this,1)"></span>
+          <span onclick="goToSlide(this,2)"></span>
+          <span onclick="goToSlide(this,3)"></span>
+        </div>
+
+        <h3>Kia Sportage 2025</h3>
+        <p>Bold design. Advanced safety. Starting from R499,999.</p>
+          <a class="btn enquire-whatsapp"
+             data-car="Kia Sportage 2025"
+             data-price="499999"
+             target="_blank" rel="noopener">
+            💬 Enquire on WhatsApp
+          </a>
+      </div>
+
+
+
+      <!-- CAR 2 -->
+      <div class="car-item">
+        <div class="car-slideshow">
+          <img src="images/sonet/sonet1.jpg" class="active" />
+          <img src="images/sonet/sonet2.jpg" />
+          <img src="images/sonet/sonet3.jpg" />
+          <img src="images/sonet/sonet4.jpg" />
+          <button class="prev" onclick="changeSlide(this,-1)">&#10094;</button>
+          <button class="next" onclick="changeSlide(this,1)">&#10095;</button>
+        </div>
+
+        <div class="car-dots">
+          <span onclick="goToSlide(this,0)" class="active"></span>
+          <span onclick="goToSlide(this,1)"></span>
+          <span onclick="goToSlide(this,2)"></span>
+          <span onclick="goToSlide(this,3)"></span>
+        </div>
+
+        <h3>Kia Sonet 2025</h3>
+        <p>Bold design. Advanced safety. Starting from R299,995.</p>
+          <a class="btn enquire-whatsapp"
+             data-car="Kia Sonet 2025"
+             data-price="299995"
+             target="_blank" rel="noopener">
+            💬 Enquire on WhatsApp
+          </a>
+      </div>
+
+      <!-- CAR 3 -->
+      <div class="car-item">
+        <div class="car-slideshow">
+          <img src="images/picanto/picanto1.jpg" class="active" />
+          <img src="images/picanto/picanto2.jpg" />
+          <img src="images/picanto/picanto3.jpg" />
+          <img src="images/picanto/picanto4.jpg" />
+          <button class="prev" onclick="changeSlide(this,-1)">&#10094;</button>
+          <button class="next" onclick="changeSlide(this,1)">&#10095;</button>
+        </div>
+
+        <div class="car-dots">
+          <span onclick="goToSlide(this,0)" class="active"></span>
+          <span onclick="goToSlide(this,1)"></span>
+          <span onclick="goToSlide(this,2)"></span>
+          <span onclick="goToSlide(this,3)"></span>
+        </div>
+
+        <h3>Kia Picanto 2025</h3>
+        <p>Bold design. Advanced safety. Starting from R236,995.</p>
+          <a class="btn enquire-whatsapp"
+             data-car="Kia Picanto 2025"
+             data-price="236995"
+             target="_blank" rel="noopener">
+            💬 Enquire on WhatsApp
+          </a>
+      </div>
+
+      <!-- CAR 4 -->
+      <div class="car-item">
+        <div class="car-slideshow">
+          <img src="images/seltos/seltos1.jpg" class="active" />
+          <img src="images/seltos/seltos2.jpg" />
+          <img src="images/seltos/seltos3.jpg" />
+          <img src="images/seltos/seltos4.jpg" />
+          <button class="prev" onclick="changeSlide(this,-1)">&#10094;</button>
+          <button class="next" onclick="changeSlide(this,1)">&#10095;</button>
+        </div>
+
+        <div class="car-dots">
+          <span onclick="goToSlide(this,0)" class="active"></span>
+          <span onclick="goToSlide(this,1)"></span>
+          <span onclick="goToSlide(this,2)"></span>
+          <span onclick="goToSlide(this,3)"></span>
+        </div>
+
+        <h3>Kia Seltos 2025</h3>
+        <p>Bold design. Advanced safety. Starting from R369,995.</p>
+          <a class="btn enquire-whatsapp"
+             data-car="Kia Seltos 2025"
+             data-price="369995"
+             target="_blank" rel="noopener">
+            💬 Enquire on WhatsApp
+          </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Praveen</h2>
+    <p>📞 Call or WhatsApp: <a href="tel:+27833280949">+27 83 328 0949</a></p>
+    <p>📧 Email: <a href="mailto:praveen@kia.co.za">praveen@kia.co.za</a></p>
+    <p>📍 Visit: Kia Motors, Umhlanga, South Africa</p>
+
+    <!-- Contact section WhatsApp button (prefilled generic message) -->
+    <a
+      href="https://wa.me/27833280949?text=Hi%20Praveen%2C%20I%27m%20interested%20in%20one%20of%20your%20cars.%20Can%20you%20tell%20me%20more%3F"
+      target="_blank" rel="noopener"
+      class="whatsapp-btn">
+      💬 Chat on WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Praveen Hiralall | Kia Motors Umhlanga</p>
+  </footer>
+
+  <!-- Floating Action Buttons -->
+  <div class="fab">
+    <a id="fab-wa" class="fab-btn" aria-label="Chat on WhatsApp"
+       href="https://wa.me/27833280949?text=Hi%20Praveen%2C%20I%27m%20interested%20in%20your%20cars."
+       target="_blank" rel="noopener">💬</a>
+
+    <a id="fab-call" class="fab-btn call" aria-label="Call now"
+       href="tel:+27833280949">📞</a>
+  </div>
+
+  <script>
+    // --- CONFIG ---
+    const WHATSAPP_NUMBER = "27833280949"; // International format, no +, spaces or brackets
+
+    // Attach WhatsApp links with prefilled messages per car
+    document.querySelectorAll(".enquire-whatsapp").forEach(btn => {
+      const car = btn.dataset.car || "a vehicle";
+      const price = btn.dataset.price ? ` priced at R${Number(btn.dataset.price).toLocaleString()}` : "";
+      const msg = `Hi Praveen, I'm interested in the ${car}${price}. Is it still available?`;
+      const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
+      btn.setAttribute("href", url);
+    });
+  </script>
+
+  <script>
+  function changeSlide(btn, direction) {
+    const slideshow = btn.parentElement;
+    const images = slideshow.querySelectorAll("img");
+    let current = Array.from(images).findIndex(img => img.classList.contains("active"));
+    
+    images[current].classList.remove("active");
+    let nextIndex = (current + direction + images.length) % images.length;
+    images[nextIndex].classList.add("active");
+  }
+
+  function changeSlide(button, step) {
+    const slideshow = button.parentElement;
+    const images = slideshow.querySelectorAll("img");
+    const dots = slideshow.nextElementSibling.querySelectorAll("span");
+    let current = Array.from(images).findIndex(img => img.classList.contains("active"));
+    images[current].classList.remove("active");
+    dots[current].classList.remove("active");
+    
+    let nextIndex = (current + step + images.length) % images.length;
+    images[nextIndex].classList.add("active");
+    dots[nextIndex].classList.add("active");
+  }
+
+  function goToSlide(dot, index) {
+    const dots = dot.parentElement.querySelectorAll("span");
+    const slideshow = dot.parentElement.previousElementSibling;
+    const images = slideshow.querySelectorAll("img");
+    
+    dots.forEach(d => d.classList.remove("active"));
+    images.forEach(img => img.classList.remove("active"));
+    
+    dots[index].classList.add("active");
+    images[index].classList.add("active");
+  }
+  </script>
+
+  
+</body>
+</html>
